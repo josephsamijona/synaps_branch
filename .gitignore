@@ -46,3 +46,44 @@ filesyscrea.js
 GEMINI.md
 .tasklist/
 .report/
+bootstrap_backend.py
+venv
+# ---------- ROOT ----------
+.env
+.env.local
+.env.*.local
+
+# ---------- BACKEND ----------
+backend/venv/
+backend/__pycache__/
+backend/.pytest_cache/
+backend/.coverage
+backend/htmlcov/
+backend/.mypy_cache/
+backend/alembic/versions/*.py
+!backend/alembic/versions/.gitkeep
+backend/*.db
+backend/*.sqlite3
+backend/dist/
+backend/build/
+backend/*.egg-info/
+
+# ---------- FRONTEND ----------
+frontend/node_modules/
+frontend/.next/
+frontend/out/
+frontend/.env*.local
+frontend/npm-debug.log*
+frontend/yarn-debug.log*
+frontend/yarn-error.log*
+frontend/.pnpm-debug.log*
+frontend/.turbo/
+frontend/coverage/
+frontend/.vercel/
+
+# ---------- IDE ----------
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
